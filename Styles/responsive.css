@@ -106,10 +106,21 @@
     .four-things-content p{ 
         padding: 0px 70px;
         margin-bottom: 40px;
+
     }
-    /* habits section ends */
+    
+}
 
 
-
+/* habits section ends */
+@media screen and (max-width: 576px) {
+    .extra-mile {
+		gap: 30px;
+		padding: 20px;
+	}
+	.chart-and-form {
+		flex-direction: column;
+	}
 
 }
+

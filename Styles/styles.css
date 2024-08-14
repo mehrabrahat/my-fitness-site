@@ -280,6 +280,35 @@ header {
 }
 /* habits section ends */
 
+/* run extra mile starts  */
+
+.extra-mile {
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #222;
+	border-radius: 16px;
+	margin: 100px auto;
+	max-width: 1060px;
+}
+.extra-mile-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+.extra-mile-text > .section-title,
+.extra-mile-text > .section-subtitle {
+	text-align: left;
+}
+.extra-mile-img img {
+	width: 366px;
+	height: 312px;
+	object-fit: cover;
+	border-radius: 16px;
+}
+
+/* run extra miles ends */
 
 
 

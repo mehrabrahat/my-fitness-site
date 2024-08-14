@@ -32,12 +32,25 @@ h6 {
 img {
 	max-width: 100%;
 }
-
+li {
+	list-style: none;
+}
+body {
+	font-family: "Inter", sans-serif;
+	background-color: black;
+}
 .inner {
 	max-width: calc(1140px - 40px);
 	margin: 0 auto;
 }
 
+.section-title,
+.section-subtitle {
+	text-align: center;
+}
+.form .section-subtitle {
+	text-align: left;
+}
 .section-title {
 	font-size: clamp(32px, 6vw, 48px);
 	font-weight: 900;
@@ -534,6 +547,7 @@ select {
 }
 .copyright-area p {
 	font-weight: 300;
+    text-align: center;
 }
 
 

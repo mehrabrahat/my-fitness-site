@@ -122,5 +122,123 @@
 		flex-direction: column;
 	}
 
+	form input[type="number"] {
+		width: 100%;
+	}
 }
+
+@media all and (max-width: 460px) {
+	.dropdown > #check:checked ~ .menu {
+		display: block;
+	}
+	.header {
+		position: relative;
+	}
+	.header-item {
+		display: inline-block;
+	}
+
+	.menu {
+		display: none;
+		position: absolute;
+		width: 100%;
+		top: 50px;
+	}
+	.menu ul {
+		flex-direction: column;
+	}
+	.dropdown {
+		display: block;
+		color: var(--primary);
+		cursor: pointer;
+		text-align: right;
+		float: right;
+	}
+	.habit-item {
+		width: 100%;
+		padding: 50px;
+	}
+	.extra-mile-text {
+		gap: 20px;
+	}
+	.extra-mile {
+		flex-direction: column;
+	}
+	.training-and-exp .section-title,
+	.training-and-exp .section-subtitle {
+		text-align: left;
+	}
+	.gallery {
+		grid-template-columns: repeat(14, 1fr);
+		grid-template-rows: repeat(2, 150px);
+		padding: 0;
+	}
+	.gallery-item {
+		max-width: 100%;
+	}
+	.item-1 {
+		grid-column-start: 1;
+		grid-column-end: 8;
+	}
+	.item-2 {
+		grid-column-start: 8;
+		grid-column-end: 16;
+	}
+	.item-4 {
+		grid-column-start: 1;
+		grid-column-end: 7;
+	}
+	.item-5 {
+		grid-column-start: 7;
+		grid-column-end: 16;
+	}
+	.gallery .item-3,
+	.item-6 {
+		display: none;
+	}
+	.team {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.form .section-subtitle {
+		text-align: left;
+	}
+	form input::placeholder,
+	select {
+		font-size: 13px;
+	}
+}
+@media all and (max-width: 637px) {
+	.badge-tutorial {
+		transform: translate(-85%, -124%);
+	}
+}
+@media all and (max-width: 393px) {
+	.badge-workout {
+		transform: translate(100%, 124%);
+	}
+}
+
+@media all and (max-width: 375px) {
+	.hero-buttons {
+		display: flex;
+		gap: 10px;
+		flex-direction: column;
+	}
+	.badge-workout {
+		transform: translate(107%, 130%);
+		width: 154px;
+		height: 75px;
+	}
+	.badge-tutorial {
+		width: 154px;
+		height: 75px;
+	}
+	.badge-tutorial p,
+	.badge-workout p {
+		font-size: 12px;
+		white-space: nowrap;
+	}
+
+}
+
 

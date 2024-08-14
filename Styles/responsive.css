@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px) {
+
+    /* Header Navbar Section CSS Starts here */
+    .header-navbar-container {
+        width: 85%;
+    }
+
+    .navbar-menu-container {
+        display: none;
+    }
+
+    .bars-icon {
+        color: #FFFFFF;
+        display: inline;
+        cursor: pointer;
+        font-size: 22px;
+    }
+
+}

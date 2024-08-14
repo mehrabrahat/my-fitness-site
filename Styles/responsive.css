@@ -84,10 +84,30 @@
         left: 10px;
     }
 
+    /* habits section starts */
+    .habit-section-container {
+        width: 85%;
+        margin-bottom: 50px;
+    }
 
-
-
-
+    .habit-section-texts {
+        padding: 0px;
+    }
+    .habit-section-texts h1{
+        font-size: 2rem;
+    }
+    .four-things-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .four-things-content h5{
+        margin-top: 20px;
+    }
+    .four-things-content p{ 
+        padding: 0px 70px;
+        margin-bottom: 40px;
+    }
+    /* habits section ends */
 
 
 

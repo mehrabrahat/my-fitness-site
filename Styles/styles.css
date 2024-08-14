@@ -184,6 +184,20 @@ header {
     cursor: pointer;
 }
 
+.btn-fill {
+    color: #FFFFFF;
+    font-size: 1rem;
+    background-color: #E6533C;
+    padding: 14px 44px;
+    border: none;
+    border-radius: 42px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+
+
 .stroke-color-btn {
     color: #FFFFFF;
     font-size: 1rem;
@@ -453,7 +467,7 @@ select {
 select {
 	color: white;
 }
-.form form input[type="submit"] {
+.form form input[type="calculate"] {
 	border: none;
 	font-size: 20px;
 	margin-top: 20px;

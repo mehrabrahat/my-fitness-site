@@ -1,6 +1,6 @@
 @media screen and (max-width: 576px) {
 
-    /* Header Navbar Section CSS Starts here */
+    /* header navbar section starts*/
     .header-navbar-container {
         width: 85%;
     }
@@ -17,7 +17,7 @@
     }
 
 
-    /* Header banner css starts here */
+    /* Header banner css starts*/
     .header-banner-container {
         width: 85%;
         display: flex;
@@ -238,6 +238,7 @@
 		font-size: 12px;
 		white-space: nowrap;
 	}
+
 
 }
 
